@@ -1,5 +1,6 @@
 body{
-
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 li {
@@ -26,7 +27,7 @@ h1 .navbar-brand {
 	margin: 0;
 }
 
-.navbar-nav > li {
+.navbar-nav > li > a {
 	padding: 0 12px;
 	line-height: 67px;
 }
@@ -52,6 +53,10 @@ h2#how, h2#why{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
+
+/*#desc {
+	width: 50%;
+}*/
 
 #desc, #works{
 	text-align: center;
@@ -103,3 +108,21 @@ footer{
 	width: 250px;
 	float: left;
 }
+
+@media (max-width: 767px) { 	
+	.tag{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 	
+	.tag{
+		font-size: 25px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.tag{
+		font-size: 35px;
+	}
+ }
+@media (min-width: 1200px) { ... }
